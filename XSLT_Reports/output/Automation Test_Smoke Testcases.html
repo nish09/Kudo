@@ -1,0 +1,2489 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>Smoke Testcases</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">9</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">10</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">90%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">3m
+               59s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testngFiles.DrawingPage_fileUpload_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_fileUpload_byStatus_failed_FAIL1_details')">fileUpload()</a>
+               </td>
+               <td nowrap="true">15:19:42</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_fileUpload_byStatus_failed_FAIL1_exception')">java.lang.NullPointerException: </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_fileUpload_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>fileUpload
+                     </div>
+                     <div>
+                        <b>Signature: </b>fileUpload()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_fileUpload_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.NullPointerException
+                        	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+                        	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+                        	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+                        	at testngFiles.DrawingPage.fileUpload(DrawingPage.java:431)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:497)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+                        	at org.testng.TestRunner.run(TestRunner.java:602)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1144)
+                        	at org.testng.TestNG.run(TestNG.java:1115)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1442)
+                        	at org.testng.TestNG.main(TestNG.java:1411)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS1_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:18:50</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:18:50
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_createDrawing_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_createDrawing_byStatus_passed_PASS2_details')">createDrawing()</a>
+               </td>
+               <td nowrap="true">15:19:11</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_createDrawing_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>createDrawing
+                     </div>
+                     <div>
+                        <b>Signature: </b>createDrawing()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:11
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS3_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:19:21</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:21
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS4_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:19:23</td>
+               <td nowrap="true" align="right">18s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:23
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>Duration: </b>18s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS5_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:19:42</td>
+               <td nowrap="true" align="right">866 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:43
+                     </div>
+                     <div>
+                        <b>Duration: </b>866 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS6_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:19:43</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:43
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_lineCmdUsingCW_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_lineCmdUsingCW_byStatus_passed_PASS7_details')">lineCmdUsingCW()</a>
+               </td>
+               <td nowrap="true">15:20:03</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_lineCmdUsingCW_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>lineCmdUsingCW
+                     </div>
+                     <div>
+                        <b>Signature: </b>lineCmdUsingCW()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:03
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS8_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:20:14</td>
+               <td nowrap="true" align="right">754 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:14
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>754 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS9_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:20:15</td>
+               <td nowrap="true" align="right">16s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:15
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>16s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_noofDrawings_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_noofDrawings_byStatus_passed_PASS10_details')">noofDrawings()</a>
+               </td>
+               <td nowrap="true">15:20:31</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_noofDrawings_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>noofDrawings
+                     </div>
+                     <div>
+                        <b>Signature: </b>noofDrawings()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:31
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS11_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:20:41</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:41
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:42
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS12_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:20:42</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:42
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:56
+                     </div>
+                     <div>
+                        <b>Duration: </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_profilePageValidation_byStatus_passed_PASS13_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_profilePageValidation_byStatus_passed_PASS13_details')">profilePageValidation()</a>
+               </td>
+               <td nowrap="true">15:20:56</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_profilePageValidation_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>profilePageValidation
+                     </div>
+                     <div>
+                        <b>Signature: </b>profilePageValidation()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:56
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS14_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS14_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:20:59</td>
+               <td nowrap="true" align="right">300 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:59
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:00
+                     </div>
+                     <div>
+                        <b>Duration: </b>300 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS15_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:21:00</td>
+               <td nowrap="true" align="right">18s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:00
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>18s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_screenshot_byStatus_passed_PASS16_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_screenshot_byStatus_passed_PASS16_details')">screenshot(C:\Users\Nishant\Desktop\UXUI\1.65\)</a>
+               </td>
+               <td nowrap="true">15:21:18</td>
+               <td nowrap="true" align="right">178 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_screenshot_byStatus_passed_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>screenshot
+                     </div>
+                     <div>
+                        <b>Signature: </b>screenshot(java.lang.String)[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        C:\Users\Nishant\Desktop\UXUI\1.65\
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>178 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS17_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:21:18</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:19
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS18_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:21:19</td>
+               <td nowrap="true" align="right">16s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:19
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>16s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_storagePageValidation_byStatus_passed_PASS19_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_storagePageValidation_byStatus_passed_PASS19_details')">storagePageValidation()</a>
+               </td>
+               <td nowrap="true">15:21:36</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_storagePageValidation_byStatus_passed_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>storagePageValidation
+                     </div>
+                     <div>
+                        <b>Signature: </b>storagePageValidation()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:36
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS20_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS20_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:21:41</td>
+               <td nowrap="true" align="right">312 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>312 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS21_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS21_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:21:41</td>
+               <td nowrap="true" align="right">18s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS21_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>18s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_switchToModes_byStatus_passed_PASS22_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_switchToModes_byStatus_passed_PASS22_details')">switchToModes()</a>
+               </td>
+               <td nowrap="true">15:21:59</td>
+               <td nowrap="true" align="right">17s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_switchToModes_byStatus_passed_PASS22_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>switchToModes
+                     </div>
+                     <div>
+                        <b>Signature: </b>switchToModes()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:59
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>17s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS23_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS23_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:22:17</td>
+               <td nowrap="true" align="right">423 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS23_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>423 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS24_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS24_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:22:17</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS24_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_termsAndPrivacy_byStatus_passed_PASS25_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_termsAndPrivacy_byStatus_passed_PASS25_details')">termsAndPrivacy()</a>
+               </td>
+               <td nowrap="true">15:22:30</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_termsAndPrivacy_byStatus_passed_PASS25_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>termsAndPrivacy
+                     </div>
+                     <div>
+                        <b>Signature: </b>termsAndPrivacy()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:30
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:34
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS26_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS26_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:22:34</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS26_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:34
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS27_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS27_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:22:35</td>
+               <td nowrap="true" align="right">12s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byStatus_passed_PASS27_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:35
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>12s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_validationElements_byStatus_passed_PASS28_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_validationElements_byStatus_passed_PASS28_details')">validationElements()</a>
+               </td>
+               <td nowrap="true">15:22:48</td>
+               <td nowrap="true" align="right">683 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_validationElements_byStatus_passed_PASS28_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>validationElements
+                     </div>
+                     <div>
+                        <b>Signature: </b>validationElements()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>683 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS29_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS29_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:22:48</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byStatus_passed_PASS29_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:49
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testngFiles.DrawingPage</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS1_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:18:50</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:18:50
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_createDrawing_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_createDrawing_byClass_PASS2_details')">createDrawing()</a>
+               </td>
+               <td nowrap="true">15:19:11</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_createDrawing_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>createDrawing
+                     </div>
+                     <div>
+                        <b>Signature: </b>createDrawing()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:11
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS3_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:19:21</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:21
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS4_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS4_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:19:23</td>
+               <td nowrap="true" align="right">18s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:23
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>Duration: </b>18s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_fileUpload_byClass_FAIL5_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_fileUpload_byClass_FAIL5_details')">fileUpload()</a>
+               </td>
+               <td nowrap="true">15:19:42</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_fileUpload_byClass_FAIL5_exception')">java.lang.NullPointerException: </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_fileUpload_byClass_FAIL5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>fileUpload
+                     </div>
+                     <div>
+                        <b>Signature: </b>fileUpload()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_fileUpload_byClass_FAIL5_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.NullPointerException
+                        	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+                        	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+                        	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+                        	at testngFiles.DrawingPage.fileUpload(DrawingPage.java:431)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:497)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+                        	at org.testng.TestRunner.run(TestRunner.java:602)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+                        	at org.testng.TestNG.runSuites(TestNG.java:1144)
+                        	at org.testng.TestNG.run(TestNG.java:1115)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1442)
+                        	at org.testng.TestNG.main(TestNG.java:1411)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS6_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:19:42</td>
+               <td nowrap="true" align="right">866 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:42
+                     </div>
+                     <div>
+                        <b>End time: </b>15:19:43
+                     </div>
+                     <div>
+                        <b>Duration: </b>866 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS7_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:19:43</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:19:43
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_lineCmdUsingCW_byClass_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_lineCmdUsingCW_byClass_PASS8_details')">lineCmdUsingCW()</a>
+               </td>
+               <td nowrap="true">15:20:03</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_lineCmdUsingCW_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>lineCmdUsingCW
+                     </div>
+                     <div>
+                        <b>Signature: </b>lineCmdUsingCW()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:03
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS9_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:20:14</td>
+               <td nowrap="true" align="right">754 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:14
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>754 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS10_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS10_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:20:15</td>
+               <td nowrap="true" align="right">16s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:15
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>16s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_noofDrawings_byClass_PASS11_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_noofDrawings_byClass_PASS11_details')">noofDrawings()</a>
+               </td>
+               <td nowrap="true">15:20:31</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_noofDrawings_byClass_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>noofDrawings
+                     </div>
+                     <div>
+                        <b>Signature: </b>noofDrawings()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:31
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS12_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS12_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:20:41</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:41
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:42
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS13_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS13_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:20:42</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:42
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:56
+                     </div>
+                     <div>
+                        <b>Duration: </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_profilePageValidation_byClass_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_profilePageValidation_byClass_PASS14_details')">profilePageValidation()</a>
+               </td>
+               <td nowrap="true">15:20:56</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_profilePageValidation_byClass_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>profilePageValidation
+                     </div>
+                     <div>
+                        <b>Signature: </b>profilePageValidation()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:56
+                     </div>
+                     <div>
+                        <b>End time: </b>15:20:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS15_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:20:59</td>
+               <td nowrap="true" align="right">300 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:20:59
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:00
+                     </div>
+                     <div>
+                        <b>Duration: </b>300 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS16_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS16_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:21:00</td>
+               <td nowrap="true" align="right">18s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:00
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>18s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_screenshot_byClass_PASS17_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_screenshot_byClass_PASS17_details')">screenshot(C:\Users\Nishant\Desktop\UXUI\1.65\)</a>
+               </td>
+               <td nowrap="true">15:21:18</td>
+               <td nowrap="true" align="right">178 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_screenshot_byClass_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>screenshot
+                     </div>
+                     <div>
+                        <b>Signature: </b>screenshot(java.lang.String)[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        C:\Users\Nishant\Desktop\UXUI\1.65\
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>178 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS18_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS18_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:21:18</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:18
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:19
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS19_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS19_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:21:19</td>
+               <td nowrap="true" align="right">16s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:19
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>16s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_storagePageValidation_byClass_PASS20_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_storagePageValidation_byClass_PASS20_details')">storagePageValidation()</a>
+               </td>
+               <td nowrap="true">15:21:36</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_storagePageValidation_byClass_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>storagePageValidation
+                     </div>
+                     <div>
+                        <b>Signature: </b>storagePageValidation()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:36
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS21_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS21_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:21:41</td>
+               <td nowrap="true" align="right">312 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS21_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>312 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS22_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS22_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:21:41</td>
+               <td nowrap="true" align="right">18s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS22_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:41
+                     </div>
+                     <div>
+                        <b>End time: </b>15:21:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>18s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_switchToModes_byClass_PASS23_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_switchToModes_byClass_PASS23_details')">switchToModes()</a>
+               </td>
+               <td nowrap="true">15:21:59</td>
+               <td nowrap="true" align="right">17s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_switchToModes_byClass_PASS23_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>switchToModes
+                     </div>
+                     <div>
+                        <b>Signature: </b>switchToModes()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:21:59
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>17s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS24_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS24_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:22:17</td>
+               <td nowrap="true" align="right">423 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS24_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>423 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS25_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS25_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:22:17</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS25_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:17
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_termsAndPrivacy_byClass_PASS26_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_termsAndPrivacy_byClass_PASS26_details')">termsAndPrivacy()</a>
+               </td>
+               <td nowrap="true">15:22:30</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_termsAndPrivacy_byClass_PASS26_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>termsAndPrivacy
+                     </div>
+                     <div>
+                        <b>Signature: </b>termsAndPrivacy()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:30
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:34
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS27_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS27_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:22:34</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS27_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:34
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogin_byClass_PASS28_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogin_byClass_PASS28_details')">kudoLogin()</a>
+               </td>
+               <td nowrap="true">15:22:35</td>
+               <td nowrap="true" align="right">12s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogin_byClass_PASS28_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogin()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:35
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>12s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_validationElements_byClass_PASS29_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_validationElements_byClass_PASS29_details')">validationElements()</a>
+               </td>
+               <td nowrap="true">15:22:48</td>
+               <td nowrap="true" align="right">683 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_validationElements_byClass_PASS29_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>validationElements
+                     </div>
+                     <div>
+                        <b>Signature: </b>validationElements()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>683 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testngFiles.DrawingPage_kudoLogout_byClass_PASS30_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testngFiles.DrawingPage_kudoLogout_byClass_PASS30_details')">kudoLogout()</a>
+               </td>
+               <td nowrap="true">15:22:48</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testngFiles.DrawingPage_kudoLogout_byClass_PASS30_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>kudoLogout
+                     </div>
+                     <div>
+                        <b>Signature: </b>kudoLogout()[pri:0, instance:testngFiles.DrawingPage@2a18f23c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:22:48
+                     </div>
+                     <div>
+                        <b>End time: </b>15:22:49
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

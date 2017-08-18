@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Test]">
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="testngFiles.DrawingPage">
+        <methods>
+          <include name="fileUpload"/>
+          <include name="kudoLogin"/>
+          <include name="kudoLogout"/>
+        </methods>
+      </class> <!-- testngFiles.DrawingPage -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->
