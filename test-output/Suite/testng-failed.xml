@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testngFiles.DrawingPage">
+        <methods>
+          <include name="filters"/>
+          <include name="switchToModes"/>
+          <include name="noofDrawings"/>
+          <include name="termsAndPrivacy"/>
+          <include name="kudoLogin"/>
+          <include name="storagePageValidation"/>
+          <include name="kudoLogout"/>
+          <include name="profilePageValidation"/>
+          <include name="validationElements"/>
+        </methods>
+      </class> <!-- testngFiles.DrawingPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
